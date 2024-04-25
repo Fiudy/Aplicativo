@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name" translatable="false">Mobile App Android</string>
+    <string name="buttonProfile_txt">Profile</string>
+    <string name="buttonSettings_txt">Settings</string>
+    <string name="buttonMonitor_txt">Monitor Activity</string>
+    <string name="buttonHistory_txt">Activity History</string>
+    <string name="buttonAbout_txt">About</string>
+    <string name="aboutPageTitle_txt">Credits:</string>
+    <string name="creatorName1_txt" translatable="false">Rebeca Bezerra</string>
+    <string name="creatorName2_txt" translatable="false">Gabriel de Abreu</string>
+    <string name="goBackButton_txt">Back</string>
+    <string name="maleButton_txt" >Male</string>
+    <string name="femaleButton_txt" >Female</string>
+    <string name="userName_txt" >User Name</string>
+    <string name="northUpOrientation_txt" >North Up</string>
+    <string name="courseUpOrientation_txt" >Course Up</string>
+    <string name="noOrientation_txt" >None</string>
+    <string name="vetorialMap_txt" >Vetorial</string>
+    <string name="sateliteMap_txt" >Satelite</string>
+    <string name="activities_txt" >Main Activity</string>
+    <string name="velocityUnity_txt" >Choose Velocity Unity:</string>
+    <string name="mapType_txt" >Choose Map Type:</string>
+    <string name="orientationChoice_txt" >Orientation Choice:</string>
+    <string name="run_txt" >Run</string>
+    <string name="cycle_txt" >Cycle</string>
+    <string name="walk_txt" >Walk</string>
+    <string name="kilometers_txt">Km/h</string>
+    <string name="meters_txt">m/s</string>
+    <string name="saveButton" >Save</string>
+    <string name="birthdayTitle_txt" >Enter Birth Day:</string>
+    <string name="weightTitle_txt" >Enter Weight Value:</string>
+    <string name="heightTitle_txt" >Enter Height Value:</string>
+    <string name="genderSelectorTitle_txt" >Select Gender:</string>
+    <string name="dateFormat">DD/MM/YYYY</string>
+    <string name="speed">Speed:</string>
+    <string name="time">Time:</string>
+    <string name="calories">Calories:</string>
+    <string name="distance">Distance:</string>
+    <string name="endActivity">End Activity</string>
+    <string name="startActivity">Start Activity</string>
+    <string name="getLocation">Get Location</string>
+</resources>

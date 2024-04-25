@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/availableActivities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/activities_txt" />
+
+        <RadioGroup
+            android:id="@+id/exerciseGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/walkButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/walk_txt" />
+
+            <RadioButton
+                android:id="@+id/runButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/run_txt" />
+
+            <RadioButton
+                android:id="@+id/cycleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/cycle_txt" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/orientationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/orientationChoice_txt"
+            app:layout_constraintBottom_toTopOf="@+id/northOrientationButton"
+            app:layout_constraintStart_toStartOf="@+id/northOrientationButton" />
+
+        <RadioGroup
+            android:id="@+id/orientationGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/northOrientationButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/northUpOrientation_txt"
+                app:layout_constraintStart_toStartOf="@+id/vetorialButton"
+                app:layout_constraintTop_toBottomOf="@+id/vetorialButton" />
+
+            <RadioButton
+                android:id="@+id/courseOrientationButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/courseUpOrientation_txt"
+                app:layout_constraintStart_toEndOf="@+id/northOrientationButton"
+                app:layout_constraintTop_toTopOf="@+id/northOrientationButton" />
+
+            <RadioButton
+                android:id="@+id/noOrientationButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/noOrientation_txt"
+                app:layout_constraintStart_toEndOf="@+id/courseOrientationButton"
+                app:layout_constraintTop_toTopOf="@+id/courseOrientationButton" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/mapType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/mapType_txt"
+            app:layout_constraintBottom_toTopOf="@+id/vetorialButton"
+            app:layout_constraintStart_toStartOf="@+id/vetorialButton" />
+
+        <RadioGroup
+            android:id="@+id/mapTypeGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/vetorialButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/vetorialMap_txt"
+                app:layout_constraintStart_toStartOf="@+id/kilometersButton"
+                app:layout_constraintTop_toBottomOf="@+id/kilometersButton" />
+
+            <RadioButton
+                android:id="@+id/sateliteButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/sateliteMap_txt"
+                app:layout_constraintStart_toEndOf="@+id/vetorialButton"
+                app:layout_constraintTop_toTopOf="@+id/vetorialButton" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/velocityTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/velocityUnity_txt"
+            app:layout_constraintBottom_toTopOf="@+id/kilometersButton"
+            app:layout_constraintStart_toStartOf="@+id/kilometersButton" />
+
+        <RadioGroup
+            android:id="@+id/velocityGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/kilometersButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/kilometers_txt"
+                app:layout_constraintStart_toStartOf="@+id/walkButton"
+                app:layout_constraintTop_toBottomOf="@+id/walkButton" />
+
+            <RadioButton
+                android:id="@+id/metersButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/meters_txt"
+                app:layout_constraintStart_toEndOf="@+id/kilometersButton"
+                app:layout_constraintTop_toTopOf="@+id/kilometersButton" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

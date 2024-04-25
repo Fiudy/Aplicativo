@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="buttonProfile_txt" >Perfil</string>
+    <string name="buttonSettings_txt" >Configurações</string>
+    <string name="buttonMonitor_txt">Monitorar Atividade</string>
+    <string name="buttonHistory_txt">Histórico de Atividades</string>
+    <string name="buttonAbout_txt">Sobre</string>
+    <string name="aboutPageTitle_txt">Créditos:</string>
+    <string name="goBackButton_txt" >Voltar</string>
+    <string name="maleButton_txt" >Masculino</string>
+    <string name="femaleButton_txt" >Feminino</string>
+    <string name="userName_txt" >Nome de Usuário</string>
+    <string name="northUpOrientation_txt" >Aponte Norte</string>
+    <string name="courseUpOrientation_txt" >Aponte Curso</string>
+    <string name="noOrientation_txt" >Nenhuma</string>
+    <string name="vetorialMap_txt" >Vetorial</string>
+    <string name="sateliteMap_txt" >Satélite</string>
+    <string name="activities_txt" >Atividade Principal</string>
+    <string name="velocityUnity_txt" >Escolha a Unidade de Velocidade:</string>
+    <string name="mapType_txt" >Escolha o Tipo de Mapa:</string>
+    <string name="orientationChoice_txt" >Escolha o Tipo de Orientação:</string>
+    <string name="run_txt" >Corrida</string>
+    <string name="cycle_txt" >Ciclismo</string>
+    <string name="walk_txt" >Caminhada</string>
+    <string name="kilometers_txt" >Km/h</string>
+    <string name="meters_txt" >m/s</string>
+    <string name="saveButton" >Salvar</string>
+    <string name="birthdayTitle_txt" >Insira Data de Nascimento:</string>
+    <string name="weightTitle_txt" >Insira Peso:</string>
+    <string name="heightTitle_txt" >Insira Altura:</string>
+    <string name="genderSelectorTitle_txt" >Selecione o Gênero:</string>
+    <string name="dateFormat">DD/MM/AAAA</string>
+    <string name="speed">"Velocidade: "</string>
+    <string name="time">"Tempo: "</string>
+    <string name="calories">"Calorias: "</string>
+    <string name="distance">"Distância: "</string>
+    <string name="endActivity">Encerrar Atividade</string>
+    <string name="startActivity">Iniciar Atividade</string>
+    <string name="getLocation">Obter Localização</string>
+</resources>
